@@ -1,0 +1,21 @@
+@media (min-width:768px){
+  .container .row img{
+    margin: 10px;
+  }
+
+  .container .row img{
+    height: 320px;
+    width: 280px;
+  }
+}
+
+@media (max-width:768px){
+  .container .row img{
+    margin: 10px;
+  }
+
+  .container .row img{
+    height: 280px;
+    width: 240px;
+  }
+}
