@@ -1,3 +1,7 @@
+body{
+  background: url('../images/flower.jpg');
+}
+
 @media (min-width:768px){
   .container .row img{
     margin: 10px;
@@ -6,6 +10,13 @@
   .container .row img{
     height: 320px;
     width: 280px;
+  }
+
+  .container .row p{
+    font-size: 1.5em;
+    font-family: sans-serif;
+    color: #5599FF;
+    padding-left: 4em;
   }
 }
 
@@ -17,5 +28,12 @@
   .container .row img{
     height: 280px;
     width: 240px;
+  }
+
+  .container .row p{
+    font-size: 1em;
+    font-family: sans-serif;
+    color: #9955FF;
+    padding-left: 4em;
   }
 }
